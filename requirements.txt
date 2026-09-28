@@ -1,0 +1,18 @@
+#  Dependencies  for  camera_online.py  (  and  its  local  modules
+#  laser_sensor.py  /  measure.py  )  .
+#
+#  Python  3.10  -  3.12  is  supported  (  developed  on  3.11  )  .
+#
+#  opencv-python  (  NOT  -headless  )  :  the  live  viewer  window
+#  (  cv2.namedWindow  /  imshow  /  waitKey  )  needs  the  GUI  build.
+#  On  Windows  /  macOS  the  same  wheel  works  (  DSHOW  /
+#  AVFoundation  backends  )  ;  USB  camera  indexing  may  differ.
+#
+#  Install  (  any  computer  )  :
+#      python3  -m  venv  venv
+#      .  venv/bin/activate           #  Windows:  venv\Scripts\activate
+#      pip  install  -r  requirements.txt
+#      python3  camera_online.py
+
+numpy==2.2.0
+opencv-python==4.13.0.92
