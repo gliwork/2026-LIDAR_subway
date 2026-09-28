@@ -1,4 +1,4 @@
-#  Dependencies  for  camera_online.py  (  and  its  local  modules
+#  Dependencies  for  camera_fast_ru.py  (  and  its  local  modules
 #  laser_sensor.py  /  measure.py  )  .
 #
 #  Python  3.10  -  3.12  is  supported  (  developed  on  3.11  )  .
