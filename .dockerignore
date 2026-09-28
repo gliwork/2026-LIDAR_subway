@@ -1,9 +1,0 @@
-#  keep  the  build  context  small  :  the  folder  also  contains
-#  ~400  MB  of  review  videos  /  CSVs  /  the  7z  archive
-*.mp4
-*.csv
-*.7z
-*.npy
-__pycache__
-radar_final_run.log
-radar_live.log
