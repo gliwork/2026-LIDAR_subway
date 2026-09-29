@@ -1,0 +1,15 @@
+#  Build  context  is  this  folder  (  docker/  )  .  Keep  it  to  sources  only  .
+__pycache__/
+*.pyc
+*.pyo
+*.o
+#  never  let  a  data  /  media  file  sneak  in  and  bloat  the  context  :
+*.db3
+*.zst
+*.zip
+*.tgz
+*.mp4
+*.png
+*.jpg
+*.las
+*.laz

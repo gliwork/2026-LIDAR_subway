@@ -1,0 +1,9 @@
+#  Pinned to the versions proven to run in the host  "llm"  conda  env
+#  (  Python  3.11  ,  linux  -  x86  -  64  )  .
+numpy==2.2.0
+scipy==1.14.1
+matplotlib==3.10.8
+#  headless  build  (  no  GUI  /  libGL  needed  inside  the  container  )
+opencv-python-headless==4.13.0.92
+Pillow==11.0.0
+laspy==2.7.0
